@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="catalog_product_get_final_price">
+        <observer   name="get_final_price" 
+                    instance="Perspective\Theme18FinalPriceEvent\Observer\getFinalPrice" />
+    </event>
+</config>
